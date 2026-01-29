@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Manrope:wght@200..800&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap');
+body{
+    margin: 0px;
+      font-family: "Inter", sans-serif;
+
+}
+
+.ant-layout-header {
+  border-bottom: 1px solid #d1d1d1 !important;
+  z-index: 12300000;
+}
+
+/* ===== Sidebar scrollbar: hidden until hover ===== */
+
+/* Chrome / Edge / Safari */
+.app-sider::-webkit-scrollbar {
+  width: 0;           /* hidden */
+  height: 0;
+}
+
+.app-sider:hover::-webkit-scrollbar {
+  width: 8px;         /* visible only on hover */
+}
+
+.app-sider::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+.app-sider::-webkit-scrollbar-thumb {
+  background: #0043ca;      /* your custom color */
+  border-radius: 999px;
+  border: 2px solid transparent;
+  background-clip: content-box;
+}
+
+/* Firefox */
+.app-sider {
+  scrollbar-width: none; /* hidden */
+  scrollbar-color: #0043ca transparent;
+}
+
+.app-sider:hover {
+  scrollbar-width: thin; /* visible only on hover */
+}
