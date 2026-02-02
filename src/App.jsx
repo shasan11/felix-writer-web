@@ -1,6 +1,7 @@
 // src/App.jsx
 import "./App.css";
 import { BrowserRouter } from "react-router-dom";
+import GlobalRoutes from "./routes/GlobalRoutes";
 import AuthRoutes from "./routes/AuthRoutes";
 import "bootstrap/dist/css/bootstrap.min.css";
 import { ThemeProvider } from "./constants/theme";

@@ -24,7 +24,7 @@ const DEFAULT_SETTINGS = {
   // Typography
   fontFamily:
     'Inter, system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, "Apple Color Emoji", "Segoe UI Emoji"',
-  fontSize: 14, // base
+  fontSize: 12, // base
   lineHeight: 1.15,
 
   // Shape
